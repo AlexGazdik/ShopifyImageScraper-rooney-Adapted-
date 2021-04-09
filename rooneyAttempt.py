@@ -30,12 +30,8 @@ def imageDown(url, directoryName):
             print('Writing ' + name)
 
 
-
+# Call function
 imageDown(url, '#')
 
 
 
-'''for i, j in enumerate(images):
-    print(i, j)
-    print(' ')
-'''
