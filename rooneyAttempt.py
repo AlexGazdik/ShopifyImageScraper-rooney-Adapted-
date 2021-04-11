@@ -4,6 +4,7 @@ import os
 
 
 url = '#'
+directoryName = '#'
 #create function that takes url and directoryName argument
 def imageDown(url, directoryName):
     try:
@@ -31,7 +32,7 @@ def imageDown(url, directoryName):
 
 
 # Call function
-imageDown(url, '#')
+imageDown(url, directoryName)
 
 
 
